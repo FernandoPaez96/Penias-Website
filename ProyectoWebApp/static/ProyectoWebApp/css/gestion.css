@@ -88,7 +88,7 @@ p {
 }
 
 .bg-faded { /*Nose */
-  background-color: rgba(255, 255, 255, 0.85);
+  
   background-color: rgba(15, 125, 228, 0.746)
 }
 
@@ -170,7 +170,7 @@ p {
     left: 600;
     width: 60%;
     margin-top: 3rem;
-    background-color: rgba(15, 125, 228);
+    background-color: rgba(15, 125, 228, 0.746);
     color: cornsilk;
     position: absolute;
     
@@ -224,14 +224,14 @@ p {
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  border: 0.25rem solid rgba(15, 125, 228, 0.746);
 }
 
 .cta .cta-innerv {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(15, 125, 228, 0.746);
 }
 
 @media (min-width: 992px) {
