@@ -29,7 +29,7 @@
  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
     <div class="container">
       
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"  >
         <span class="navbar-toggler-icon"></span>
       </button>
       <img src= "{% static 'ProyectoWebApp/img/logo.png' %}" alt="" style="width: 15%;" style="padding: 5;"  >
@@ -38,9 +38,7 @@
           <li class="nav-item {% if request.path == '/' %} active {% endif %} px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="{% url 'Home' %}">Inicio</a>
           </li>
-          <li class="nav-item {% if request.path == '/servicios/' %} active {% endif %} px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="{% url 'Servicios' %}">Servicios</a>
-          </li>
+          
           <li class="nav-item {% if request.path == '/tienda/' %} active {% endif %} px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="#productos">Nuestros Productos</a>
           </li>
@@ -54,6 +52,26 @@
         </ul>
       </div>
     </div>
+    <a href="#" class="link">
+      <img src="/media/servicios/twitter.png" alt="">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+    <a href="https://www.facebook.com/heladospenias" class="link">
+      <img src="/media/servicios/facebook.png" alt="">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+      
+    <a href="https://www.instagram.com/heladospenias/" class="link">
+      <img src="/media/servicios/instagram.png" alt="">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
   </nav>
 
 
@@ -69,18 +87,22 @@
       <div class="container">
         <p class="m-0">
 	        <a href="#" class="link">
+            <img src="/media/servicios/twitter.png" alt="">
 	          <span class="fa-stack fa-lg">
 	            <i class="fa fa-circle fa-stack-2x"></i>
 	            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 	          </span>
 	        </a>
-	        <a href="#" class="link">
+	        <a href="https://www.facebook.com/heladospenias" class="link">
+            <img src="/media/servicios/facebook.png" alt="">
 	          <span class="fa-stack fa-lg">
 	            <i class="fa fa-circle fa-stack-2x"></i>
 	            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 	          </span>
 	        </a>
-	        <a href="#" class="link">
+            
+	        <a href="https://www.instagram.com/heladospenias/" class="link">
+            <img src="/media/servicios/instagram.png" alt="">
 	          <span class="fa-stack fa-lg">
 	            <i class="fa fa-circle fa-stack-2x"></i>
 	            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>

@@ -42,6 +42,8 @@ p {
   font-size: 2rem;
   font-weight: 800;
   
+  
+  
 }
 
 .site-heading .site-heading-lower { /* nose */
@@ -82,10 +84,12 @@ p {
   text-transform: none;
   font-weight: 300;
   margin-top:.5rem;
+  
 }
 
 .bg-faded { /*Nose */
   background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(15, 125, 228, 0.746)
 }
 
 #mainNav { /*barra de navegacion base */
@@ -98,6 +102,7 @@ p {
 
 #mainNav .navbar-brand { /*Nose */
   color: #ffffff;
+  
 }
 
 #mainNav .navbar-nav .nav-item .nav-link { /*Barra de navegacion botones pasivos */
@@ -145,6 +150,7 @@ p {
   padding-bottom: 1.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  
 }
 
 .intro {
@@ -158,6 +164,7 @@ p {
     border-bottom: red;
     border-color: red;
     border-width: 50px;
+    
   }
   .intro .intro-text {
     left: 600;
@@ -179,6 +186,7 @@ p {
 @media (min-width: 1200px) {
   .intro .intro-text {
     width: 45%;
+    
   }
 }
 
@@ -197,12 +205,12 @@ p {
   background-color: rgba(11, 84, 153, 0.513);
 }
 
-.cta .cta-inner {
+.cta .cta-inner { /* cuadro primero */
   
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(15, 125, 228);
+  background-color: rgba(15, 125, 228, 0.746);
   color: cornsilk;
   
 }
@@ -271,13 +279,14 @@ p {
 }
 
 .footer {
-   background-color: rgba(15, 125, 228);
+   background-color: rgba(15, 125, 228, 0.746);
 }
 
 
 
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+  
 }
 
 
@@ -306,6 +315,7 @@ a.link{
 a.link:hover{
   text-decoration: none;
   color: rgba(255, 255, 255, 0.4);
+  
 }
 
 .section-content{
@@ -313,6 +323,7 @@ a.link:hover{
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 28px !important;
+  
 }
 
 ul.errorlist{
