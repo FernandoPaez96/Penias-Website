@@ -221,16 +221,44 @@
   </div>
 </section>
   <!-- Ubicacion -->
+  <section class="page-section cta" id="ubicacion">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner text-center rounded" id="ancla1">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper" >Nuestras sucursales </span>
+              <span class="section-heading-lower">Donde estamos</span>
+            </h2>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1E3zIz2S74cliLbUJAZpvQ71_V3r3_1DS" width="580" height="480" ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Contacto -->
     <section class="page-section cta" id="ubicacion">
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded" id="ancla1">
               <h2 class="section-heading mb-4">
-                <span class="section-heading-upper" >Nuestras sucursales </span>
-                <span class="section-heading-lower">Donde estamos</span>
+                <span class="section-heading-upper" >Envianos un email</span>
+                <span class="section-heading-lower">Contacto</span>
               </h2>
-              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1E3zIz2S74cliLbUJAZpvQ71_V3r3_1DS" width="580" height="480" ></iframe>
+              <form action="contact.php" method="post">
+                <p style="text-align: center;"><label for="nombre">Nombre:</label></p>
+                 <p style="text-align: center;"><input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" /></p>
+                 <p>  </p> 
+                 <p style="text-align: center;"><label for="email">Email:</label></p>
+                 <p style="text-align: center;"><input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />  </p>
+                 <p>  </p>      
+                 <p style="text-align: center;"><label for="mensaje">Mensaje:</label></p>
+                 <p>  </p> 
+                 <p style="text-align: center;" style="size: 150%;"><textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea></p>
+                 <p style="text-align: center;"><input id="submit" type="submit" name="submit" value="Enviar" /></p>
+                </form>
             </div>
           </div>
         </div>
