@@ -340,11 +340,7 @@ ul.errorlist{
 }
 
 
-ul, li {
-  padding: 0;
-  margin: 0;
-  list-style: none inside;
-}
+
 ul.slider {
   position:relative; /*Necesitamos que el ul sea relativo*/
 }
