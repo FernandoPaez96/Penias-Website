@@ -340,6 +340,74 @@ ul.errorlist{
 }
 
 
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none inside;
+}
+ul.slider {
+  position:relative; /*Necesitamos que el ul sea relativo*/
+}
+ul.slider li {
+  opacity: 0; /*Ocultamos todos los <li>*/
+  transition: opacity .5s;
+  position: absolute; /*Posicionamos en absoluto los <li>*/
+  left: 0px;
+  top: 0px;
+  margin:50px;
+  padding:50px;
+  border:2px solid red;
+  background:#fff;
+}
+ul.slider li:first-child {
+  opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slider li:target {
+  opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+nav {
+  position:relative;
+  top:200px;
+  left:50px;
+}
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
 
 
 
