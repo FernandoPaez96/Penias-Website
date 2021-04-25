@@ -93,8 +93,7 @@ p {
 }
 
 #mainNav { /*barra de navegacion base */
-  z-index: 1;
-  position: sticky;
+  
   top: 0;
   height: 15%;
   background-color: rgb(15, 125, 228);
